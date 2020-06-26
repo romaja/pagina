@@ -1,0 +1,871 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+  *{ padding:0px; margin:0px;}
+  body {
+  font-size: 150%;
+}
+  #cuerpo { width:1000px;  background-color: #CCC; margin:auto; padding:10px;}
+  #item { width::660px; background-color:#09F; margin-top:5px; padding:5px; border-radius:10px;}
+  #preg { width::660px; background-color:#93C4F8; margin-top:5px; padding:5px; border-radius:10px;}
+  p{ font-family:Verdana, Geneva, sans-serif; size:+6;}
+input[type=radio] { width:25px; height:25px;}
+
+
+input {
+border: 1px solid #2B92DD;
+background-color: #FFFFFF;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-color: #00C4F4;
+color: #2B92DD;
+}
+
+ 
+ .boton_p{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  .boton_p:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+ 
+ @media screen and (max-width:900px){
+/*hasta tablet*/
+cuerpo {
+width: 100%;
+
+background-position:center;
+background-size:contain
+
+
+   
+}
+item {
+width: 100%;
+
+background-position:center;
+background-size:contain
+
+
+   
+}
+ 
+
+@media screen and (max-width:500px){
+/*para celular */	
+	cuerpo {
+width: 100%;
+
+background-position:center;
+background-size:contain
+
+
+
+}
+  
+  
+</style>
+</head>
+
+<body>
+<div id="cuerpo">
+ <div id="item">
+ <table>
+ <tr><td> <font size="+3">CUESTIONARIO DE COMUNICACIÓN FAMILIAR</font> </td></tr>
+ <tr><td> 
+<p> Apreciado(a) Estudiante:</p>
+<p align="justify">El presente, tiene el propósito de recoger información relacionada con la participación de los padres en la comunicación familiar de ustedes. En este sentido, agradecemos de antemano la HONESTIDAD de sus respuestas, dada la seriedad exigida por una investigación.</p>
+</td></tr>
+<tr><td> 
+<p>Marque la respuesta que usted considera</p></td></tr>
+</table>
+ </div>
+ <form action="" method="get">
+<div id="preg">
+<table>
+ <tr><td><p>1. Sexo</p> </td></tr>
+ <tr><td> </td><td>Masculino <input type="radio" name="sx" /></td><td>Femenino <input type="radio" name="sx" /></td></tr>
+
+</table>
+</div>
+<div id="preg">
+<table>
+ <tr><td><p>2.	Edad</p> </td></tr>
+ <tr><td></td><td>De 13 -14</td><td><input type="radio" name="ed" /> </td></tr>
+ <tr><td></td><td>De 15 – 16 </td><td><input type="radio" name="ed" /></td></tr>
+ <tr><td></td><td>De 17 a más </td><td><input type="radio" name="ed" /></td></tr>
+ </table>
+</div>
+<div id="preg">
+<table>
+ <tr><td colspan="4"><p>3.	Nivel de Estudios de los padres</p> </td></tr>
+ <tr><td width="50"></td><td> </td><td width="50">Padre</td><td width="50">Madre</td></tr>
+ <tr><td width="50"></td><td>Primaria </td><td><input type="radio" name="mae" /></td><td><input type="radio" name="pae" /></td></tr>
+<tr><td width="50"></td><td>Secundaria incompleta </td><td><input type="radio" name="mae" /></td><td><input type="radio" name="pae" /></td></tr>
+<tr><td width="50"></td><td>Secundaria completa</td><td><input type="radio" name="mae" /></td><td><input type="radio" name="pae" /></td></tr>
+<tr><td width="50"></td><td>Superior</td><td><input type="radio" name="mae" /></td><td><input type="radio" name="pae" /></td></tr>
+ </table>
+</div>
+
+
+<div id="preg">
+<table>
+ <tr><td colspan="4"><p>4.	Situación laboral</p> </td></tr>
+ <tr><td width="50"></td><td> </td><td width="50">Padre</td><td width="50">Madre</td></tr>
+ <tr><td width="50"></td><td>Trabajador activo </td><td><input type="radio" name="mas" /></td><td><input type="radio" name="pas" /></td></tr>
+<tr><td width="50"></td><td>Sin trabajo </td><td><input type="radio" name="mas" /></td><td><input type="radio" name="pas" /></td></tr>
+<tr><td width="50"></td><td>Jubilado (pensionista)</td><td><input type="radio" name="mas" /></td><td><input type="radio" name="pas" /></td></tr>
+<tr><td width="50"></td><td>No realiza trabajo remunerado</td><td><input type="radio" name="mas" /></td><td><input type="radio" name="pas" /></td></tr>
+<tr><td width="50"></td><td>No contesta</td><td><input type="radio" name="mas" /></td><td><input type="radio" name="pas" /></td></tr>
+ </table>
+</div>
+<div id="preg">
+<table>
+ <tr><td colspan="2"><p>5.	Estado civil de los padres</p> </td></tr>
+ <tr><td width="50"></td><td>Casados </td><td><input type="radio" name="ed" /></td></tr>
+ <tr><td width="50"></td><td>Convivientes </td><td><input type="radio" name="ed" /></td></tr>
+ <tr><td width="50"></td><td>Divorciados </td><td><input type="radio" name="ed" /></td></tr>
+  <tr><td width="50"></td><td>Separados </td><td><input type="radio" name="ed" /></td></tr>
+ <tr><td width="50"></td><td>Viudo (a) </td><td><input type="radio" name="ed" /></td></tr>
+ <tr><td width="50"></td><td>No vivo con mis padres. Vivo con abuelos </td><td><input type="radio" name="ed" /></td></tr>
+ <tr><td width="50"></td><td colspan="2">De NO vivir con tus padres. ¿Con qué familiares vives? <input type="text" size="30" maxlength="50" name="nombre"></td></tr>
+ 
+ </table>
+</div>
+<div id="preg">
+ <p>A continuación, se le formula 20 ítems, marque una respuesta según escala del 1-5 (Madre / Padre). Seleccione la que considere acertada según su criterio.</p>
+
+<table border="1" width="330" align="right">
+
+
+<tr> <td align="center">1</td><td align="center">2</td><td align="center"> 3</td><td align="center"> 4</td><td align="center">5</td> </tr>
+<tr> <td align="center">Nunca</td><td align="center">Pocas veces</td><td align="center">Algunas veces</td><td align="center">Muchas veces</td><td align="center">Siempre</td> </tr>
+
+ </table>
+ 
+ <br />
+  <br />
+
+ <table border="1" bordercolor="666633" cellpadding="0" cellspacing="0" width="100%">
+ 
+<tr><td rowspan="2">N</td><td rowspan="2">ITEMS </td><td colspan="5" align="center"> Mi Madre</td><td  rowspan="22" width="30"> </td><td colspan="5" align="center">Mi Padre </td> </tr>
+
+
+<tr><td align="center" width="33">1</td><td align="center" width="33">2</td><td align="center" width="33">3</td><td align="center" width="33">4</td><td align="center" width="33">5</td><td align="center" width="33">1</td><td align="center" width="33">2</td><td align="center" width="33">3</td><td align="center" width="33">4</td><td align="center" width="33">5</td> </tr>
+<tr><td>1</td><td>Puedo hablarle acerca de lo que pienso sin sentirme mal o incomodo/a</td><td align="center">
+<input type="radio"   name="m1" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m1" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m1" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m1" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m1" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p1" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p1" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p1" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p1" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p1" value="5"/>
+
+</td> 
+
+</tr>
+<tr><td>2</td><td>Creo todo lo que me dice.</td>
+<td align="center">
+<input type="radio"   name="m2" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m2" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m2" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m2" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m2" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p2" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p2" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p2" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p2" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p2" value="5"/>
+
+</td>
+</tr>
+
+<tr><td>3</td><td>Me presta atención cuando le hablo.</td>
+<td align="center">
+<input type="radio"   name="m3" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m3" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m3" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m3" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m3" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p3" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p3" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p3" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p3" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p3" value="5"/>
+
+</td>
+
+
+
+
+</tr>
+
+
+<tr><td>4</td><td>No me atrevo a pedirle lo que deseo o quiero.</td>
+
+<td align="center">
+<input type="radio"   name="m4" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m4" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m4" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m4" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m4" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p4" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p4" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p4" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p4" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p4" value="5"/>
+
+</td>
+
+
+</tr>
+
+<tr><td>5</td><td>Me dice cosas que me hacen daño..</td>
+
+<td align="center">
+<input type="radio"   name="m5" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m5" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m5" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m5" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m5" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p5" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p5" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p5" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p5" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p5" value="5"/>
+
+</td>
+
+ </tr>
+
+<tr><td>6</td><td>Puede saber cómo me siento sin preguntármelo.</td>
+
+<td align="center">
+<input type="radio"   name="m6" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m6" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m6" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m6" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m6" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p6" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p6" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p6" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p6" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p6" value="5"/>
+
+</td>
+
+</tr>
+
+<tr><td>7</td><td>Nos llevamos bien.</td>
+
+<td align="center">
+<input type="radio"   name="m7" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m7" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m7" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m7" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m7" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p7" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p7" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p7" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p7" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p7" value="5"/>
+
+</td>
+
+</tr>
+
+<tr><td>8</td><td>Si tuviese problemas podría contárselos.</td>
+<td align="center">
+<input type="radio"   name="m8" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m2" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m8" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m8" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m8" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p8" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p8" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p8" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p8" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p8" value="5"/>
+
+</td>
+
+</tr>
+
+<tr><td>9</td><td>Le demuestro con facilidad mi efecto.</td>
+
+<td align="center">
+<input type="radio"   name="m9" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m9" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m9" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m9" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m9" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p9" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p9" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p9" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p9" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p9" value="5"/>
+
+</td>
+
+ </tr>
+
+<tr><td>10</td><td>Cuando estoy enojado/a no le hablo.</td>
+
+<td align="center">
+<input type="radio"   name="m10" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m10" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m10" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m10" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m10" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p10" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p10" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p10" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p10" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p10" value="5"/>
+
+</td>
+
+ </tr>
+
+<tr><td>11</td><td>Tengo mucho cuidado con lo que digo.</td>
+
+<td align="center">
+<input type="radio"   name="m11" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m11" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m11" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m11" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m11" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p11" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p11" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p11" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p11" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p11" value="5"/>
+
+</td>
+</tr>
+
+<tr><td>12</td><td>Le digo cosas que le hacen daño.</td>
+<td align="center">
+<input type="radio"   name="m12" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m12" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m12" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m12" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m12" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p12" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p12" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p12" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p12" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p12" value="5"/>
+
+</td>
+
+ </tr>
+
+<tr><td>13</td><td>Cuando le hago preguntas, me responde con sinceridad.</td>
+
+<td align="center">
+<input type="radio"   name="m13" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m13" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m13" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m13" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m13" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p13" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p13" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p13" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p13" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p13" value="5"/>
+
+</td>
+ </tr>
+
+<tr><td>14</td><td>Intenta comprender mi punto de vista (mi forma de ver las cosas).</td>
+
+<td align="center">
+<input type="radio"   name="m14" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m14" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m14" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m14" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m14" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p14" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p14" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p14" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p14" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p14" value="5"/>
+
+</td>
+
+</tr>
+
+<tr><td>15</td><td>Hay temas de los que prefiero no hablarle.</td>
+<td align="center">
+<input type="radio"   name="m15" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m15" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m15" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m15" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m15" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p15" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p15" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p15" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p15" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p15" value="5"/>
+
+</td>
+
+ </tr>
+
+<tr><td>16</td><td>Pienso que es fácil hablarle de los problemas.</td>
+<td align="center">
+<input type="radio"   name="m16" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m16" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m16" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m16" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m16" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p16" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p16" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p16" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p16" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p16" value="5"/>
+
+</td>
+ </tr>
+
+<tr><td>17</td><td>Puedo expresarle mis verdaderos pensamientos.</td>
+<td align="center">
+<input type="radio"   name="m17" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m17" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m17" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m17" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m17" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p17" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p17" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p17" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p17" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p173" value="5"/>
+
+</td>
+</tr>
+
+<tr><td>18</td><td>Cuando hablamos me pongo de mal humor.</td>
+<td align="center">
+<input type="radio"   name="m18" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m18" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m18" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m18" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m18" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p18" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p18" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p18" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p18" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p18" value="5"/>
+
+</td>
+</tr>
+
+<tr><td>19</td><td>Intento ofenderme cuando se enoja conmigo.</td>
+<td align="center">
+<input type="radio"   name="m19" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m19" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m19" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m19" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m19" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p19" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p19" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p19" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p19" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p19" value="5"/>
+
+</td>
+</tr>
+
+<tr><td>20</td><td>No creo que pueda decirle cómo me siento realmente en determinadas situaciones.</td>
+<td align="center">
+<input type="radio"   name="m20" value="1"/>
+</td><td align="center">
+<input type="radio"  name="m20" value="2"/>
+</td><td align="center">
+<input type="radio"  name="m20" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="m20" value="4"/>
+
+</td><td align="center">
+<input type="radio"  name="m20" value="5"/>
+
+</td><td align="center">
+<input type="radio"  name="p20" value="1"/>
+
+</td><td align="center">
+<input type="radio"  name="p20" value="2"/>
+
+</td><td align="center">
+<input type="radio"  name="p20" value="3"/>
+
+</td><td align="center">
+<input type="radio"  name="p20" value="4"/>
+
+</td> 
+</td><td align="center">
+<input type="radio"  name="p20" value="5"/>
+
+</td>
+
+</tr>
+
+
+</div>
+
+</table>
+
+
+
+<BR />
+
+
+
+<input type="submit" value="ENVIAR" class="boton_p" align="right" />
+
+
+</form>
+
+
+</div>
+
+</body>
+</html>
